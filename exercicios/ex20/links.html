@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+<style>
+/*
+SELETORES PERSONALIZADOS
+
+#   = id
+.   = class
+:   = pseudo-class
+::  = pseudo-elemento
+>   = children
+
+*/
+
+
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+font-weight: bold;
+text-decoration: none;
+
+}
+a:hover {
+   color: red; 
+   text-decoration: underline;
+   
+} 
+
+a:visited {
+    color: rgb(190, 19, 19);
+}
+a:active {
+    color: green;
+}
+a::after {
+    content: '✠';
+}
+a::before {
+    content: '✠';
+}
+.especial::before {
+    content: '✠✠';
+    
+}
+.especial::after {
+    content: '✠✠';
+}
+.especial {
+    background-color: rgba(224, 93, 93, 0.699);
+}
+</style>
+
+</head>
+<body>
+    <h1> links</h1>
+    <ul>
+<li><a href="https://www.cursoemvideo.com/cursos" target="_blank">Link Curso em Vídeo</a></li>
+<li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" class="especial">Link GitHub</a></li>
+<li><a href="https://chatgpt.com" target="_blank">Link ChatGPT</a></li>
+
+
+
+    </ul>
+</body>
+</html>

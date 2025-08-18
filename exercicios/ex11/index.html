@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Vamos ver essas tal de imagens dinamicas ai</p>
+    <picture>
+
+
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+<source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto">
+    </picture>
+    <h1>Teste com o Caça Rato</h1>
+    <picture>
+
+<source media="(max-width: 500px )" srcset="imagens-grande-caca-rato/caca-rato-pp.png" type="image/png">
+    <source media="(max-width: 950px )" srcset="imagens-grande-caca-rato/caca-rato-mm.png" type="image/png">
+        <img src="imagens-grande-caca-rato/caca-rato-gg.png" alt="Caça Rato">
+
+    </picture>
+
+    <h1>Áudio em HTML</h1>
+<p>Teste de Áudio</p>    
+<audio controls loop preload="metadata">
+
+<source src="midia/guanacast-33.mp3" type="audio/mpeg">
+<p>Infelizmente não foi possivel reproduzir o áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o áudio!</a></p>
+
+</audio>
+</body>
+</html>
