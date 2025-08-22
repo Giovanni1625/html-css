@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        tr.linha1 {
+            background-color: gray;
+        }
+        td.lucro {
+            background-color: lightgreen;
+        }
+        td.prejuizo {
+            background-color: lightcoral;
+        }
+        td.semana {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha Primeira Tabela</h1>
+        <table>
+            <tr class="linha1">
+
+                <td>Mês 1</td>
+                <td>Resultado</td>
+                <td>Faturamento</td>
+
+            </tr>
+            <tr>
+
+                <td class="semana">Semana 1</td>
+                <td class="prejuizo">Prejuízo</td>
+                <td class="prejuizo">-350,00 R$</td>
+
+            </tr>
+            <tr>
+
+                <td class="semana">Semana 2</td>
+                <td class="lucro">Lucro</td>
+                <td class="lucro">700,00 R$</td>
+
+            </tr>
+
+            <tr>
+                <td class="semana">Semana 3</td>
+                <td class="lucro">Lucro</td>
+                <td class="lucro">150,00 R$</td>
+            </tr>
+            <tr>
+                <td class="semana">Semana 4</td>
+                <td class="prejuizo">Prejuízo</td>
+                <td class="prejuizo">-200,00 R$</td>
+
+            </tr>
+        </table>
+</body>
+</html>
