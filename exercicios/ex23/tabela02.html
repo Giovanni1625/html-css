@@ -15,6 +15,7 @@
             width: 600px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
         }
         td, th {
             border: 2px solid black;
@@ -23,6 +24,11 @@
         thead, tfoot {
             background-color: rgb(58, 57, 57);
             color: white;
+        }
+        thead > tr >th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(58, 57, 57);
         }
         td.num {
             text-align: right;
