@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        th, td {
+            padding: 8px;
+            font-size: 1.2em;
+            border: 2px solid black;
+        }
+        .cnome {
+            background-color: blue;
+        }
+        .csexo {
+            background-color: yellow;
+        }
+        .cidade {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rafael Martins</td>
+                <td>M</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Camila Oliveira</td>
+                <td>F</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>João Pedro Almeida</td>
+                <td>M</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td>Larissa Costa</td>
+                <td>F</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
