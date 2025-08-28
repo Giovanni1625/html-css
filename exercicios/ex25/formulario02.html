@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <p>
+            <label for="inome">Nome:</label> <input type="text" name="nome" id="inome" minlength="5" maxlength="30" placeholder="Nome de Usuário" size="20" autocomplete="username" required>
+        </p>
+        <p>
+            <label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha" minlength="8" placeholder="Minímo de 8 letras" autocomplete="current-password" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
